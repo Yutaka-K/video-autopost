@@ -1,0 +1,3 @@
+# .bat はWindowsで文字化けしないよう Shift_JIS(CP932) + CRLF で保存しています。
+# Gitに勝手に変換させないための設定です。
+*.bat -text diff

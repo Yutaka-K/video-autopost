@@ -1,0 +1,23 @@
+# ===== 絶対にGitHubに保存してはいけないもの =====
+# APIキー・パスワード
+.env
+.env.*
+!.env.example
+# ログイン情報（トークン）
+tokens/
+client_secret*.json
+*.token.json
+
+# ===== 動画や個人データ =====
+投稿待ち/*
+!投稿待ち/_テンプレート/
+投稿済み/
+投稿失敗/
+ログ/
+*.lock
+
+# ===== Python の作業ファイル =====
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/

@@ -1,0 +1,4 @@
+# テスト用（開発者向け。普段使うだけなら不要です）
+-r requirements.txt
+pytest>=8
+responses>=0.25
